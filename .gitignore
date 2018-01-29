@@ -1,4 +1,3 @@
 *.csv
 *.txt
-/venv/
 .hdf5
