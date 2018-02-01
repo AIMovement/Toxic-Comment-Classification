@@ -10,7 +10,7 @@ from keras.callbacks import ModelCheckpoint
 path = '../../input/'
 EMBEDDING_FILE=f'{path}glove.6B.50d.txt'
 
-TRAIN_DATA_FILE=f'{path}train.csv'
+TRAIN_DATA_FILE=f'{path}train_clean.csv'
 TEST_DATA_FILE=f'{path}test.csv'
 
 embed_size = 50 # how big is each word vector
@@ -20,14 +20,13 @@ maxlen = 100 # max number of words in a comment to use
 print('Load train data')
 train = pd.read_csv(TRAIN_DATA_FILE)
 
-print('Removing special characters')
-for i, text in enumerate(train['comment_text']):
-    print('Cleaning {} of {}'.format(i, len(train)))
-    clean_text = re.sub('[^A-Za-z]+', ' ', text)
-    train['comment_text'].iloc[i] = clean_text
-
-train.to_csv(path_or_buf=f'{path}train_clean.csv')
-print('Cleaned train saved')
+#print('Removing special characters')
+#for i, text in enumerate(train['comment_text']):
+#    print('Cleaning {} of {}'.format(i, len(train)))
+#    clean_text = re.sub('[^A-Za-z]+', ' ', text)
+#    train['comment_text'].iloc[i] = clean_text
+#train.to_csv(path_or_buf=f'{path}train_clean.csv')
+#print('Cleaned train saved')
 
 print(train['comment_text'].head(3))
 
@@ -81,4 +80,4 @@ print('Predicting')
 y_test = model.predict([X_te], batch_size=1024, verbose=1)
 sample_submission = pd.read_csv(f'{path}sample_submission.csv')
 sample_submission[list_classes] = y_test
-sample_submission.to_csv('C:/Users/okarnbla/Documents/private_repos/Kaggle/toxic_comment/submissions/LSTM_lrdecr_NoGlove_lb.csv', index=False)
+sample_submission.to_csv('C:/Users/okarnbla/Documents/private_repos/Kaggle/toxic_comment/submissions/LSTM_lrdecr_NoGlove_cleanedtrain_lb.csv', index=False)
