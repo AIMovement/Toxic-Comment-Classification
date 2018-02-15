@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf7918fd-b5df-412a-9f10-687deb42a046" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/data_processing/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/gru_baseline/.mdl_wts.hdf5" afterPath="$PROJECT_DIR$/models/gru_baseline/.mdl_wts.hdf5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/gru_baseline/gru_main.py" afterPath="$PROJECT_DIR$/models/gru_baseline/gru_main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/gru_multi-layer/gru_main.py" afterPath="$PROJECT_DIR$/models/gru_multi-layer/gru_main.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/.ipynb_checkpoints/feature_importances-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/analysis/most_clean.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/analysis/most_severe_toxic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/analysis/most_threat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/analysis/most_toxic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/feature_importances.ipynb" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/models/.ipynb_checkpoints/feature_importances-checkpoint.ipynb" afterPath="$PROJECT_DIR$/notebooks/.ipynb_checkpoints/feature_importances-checkpoint.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/models/analysis/most_clean.png" afterPath="$PROJECT_DIR$/notebooks/analysis/most_clean.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/models/analysis/most_severe_toxic.png" afterPath="$PROJECT_DIR$/notebooks/analysis/most_severe_toxic.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/models/analysis/most_threat.png" afterPath="$PROJECT_DIR$/notebooks/analysis/most_threat.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/models/analysis/most_toxic.png" afterPath="$PROJECT_DIR$/notebooks/analysis/most_toxic.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/models/feature_importances.ipynb" afterPath="$PROJECT_DIR$/notebooks/feature_importances.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,23 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="gru_main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/gru_baseline/gru_main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/data_processing/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="399">
+              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -105,8 +100,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,18 +112,7 @@
             <path>
               <item name="toxic_comment" type="b2602c69:ProjectViewProjectNode" />
               <item name="toxic_comment" type="462c0819:PsiDirectoryNode" />
-              <item name="input" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="toxic_comment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="toxic_comment" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="toxic_comment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="toxic_comment" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="gru_baseline" type="462c0819:PsiDirectoryNode" />
+              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,16 +122,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../work_files/tempmdl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\okarnbla\Documents\private_repos\Kaggle\toxic_comment\submissions" />
-      <recent name="C:\Users\okarnbla\Documents\private_repos\Kaggle\toxic_comment\1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\okarnbla\Documents\private_repos\Kaggle\toxic_comment_classification_challenge\models" />
       <recent name="C:\Users\okarnbla\Documents\private_repos\Kaggle\toxic_comment_classification_challenge\models\gru_crossval" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\okarnbla\Documents\private_repos\Kaggle\toxic_comment" />
+      <recent name="C:\Users\okarnbla\Documents\private_repos\Kaggle\toxic_comment\models\notebooks" />
+      <recent name="C:\Users\okarnbla\Documents\private_repos\Kaggle\toxic_comment\submissions" />
+      <recent name="C:\Users\okarnbla\Documents\private_repos\Kaggle\toxic_comment\1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -279,8 +265,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1170" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.209375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -402,13 +387,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/train.csv" />
-    <entry file="file://$PROJECT_DIR$/../../KRIB/KRIB/KRIB/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../KRIB/KRIB/KRIB/settings.py" />
     <entry file="file://C:/Python36/Lib/site-packages/pandas/core/generic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63504">
@@ -505,22 +484,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/data_processing/main.py">
+    <entry file="file://$PROJECT_DIR$/models/gru_baseline/gru_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="783">
+          <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/gru_baseline/gru_main.py">
+    <entry file="file://$PROJECT_DIR$/models/data_processing/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+        <state relative-caret-position="399">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
