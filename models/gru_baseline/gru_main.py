@@ -12,7 +12,7 @@ from sklearn.metrics import fbeta_score
 path = '../../input/'
 EMBEDDING_FILE=f'{path}glove.6B.50d.txt'
 
-TRAIN_DATA_FILE=f'{path}train.csv'
+TRAIN_DATA_FILE=f'{path}train_clean.csv'
 TEST_DATA_FILE=f'{path}test.csv'
 
 embed_size = 50 # how big is each word vector
