@@ -1,3 +1,5 @@
 *.csv
 *.txt
+*.vec
 .hdf5
+*.png
